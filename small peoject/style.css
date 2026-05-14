@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:linear-gradient(135deg,#dbeafe,#f8fafc);
+}
+
+/* LOGIN */
+
+.login-box{
+
+    width:350px;
+    margin:100px auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.login-box h1{
+    color:#2563eb;
+}
+
+.login-box input{
+
+    width:100%;
+    padding:14px;
+    margin:10px 0;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+.login-box button{
+
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.login-box button:hover{
+    background:#1e40af;
+}
+
+#error{
+    color:red;
+}
+
+/* DASHBOARD */
+
+.container{
+    max-width:700px;
+    margin:50px auto;
+}
+
+.title{
+    text-align:center;
+}
+
+.box{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.card{
+
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    cursor:pointer;
+    transition:0.3s;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+    background:#eff6ff;
+}
+
+.alert{
+
+    margin-top:15px;
+    padding:15px;
+    border-radius:12px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.info{
+    background:#3b82f6;
+}
+
+.error{
+    background:#ef4444;
+}
+
+.warning{
+    background:#f59e0b;
+}
+
+.success{
+    background:#22c55e;
+}
